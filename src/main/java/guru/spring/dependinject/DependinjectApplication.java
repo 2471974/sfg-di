@@ -8,10 +8,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import rao.nithesh.dependinject.controllers.*;
+import guru.spring.dependinject.controllers.*;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"rao.nithesh.dependinject"})
+@ComponentScan(basePackages = {"guru.spring.dependinject"})
 public class DependinjectApplication {
 
     public static void main(String[] args) {
